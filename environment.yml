@@ -1,0 +1,16 @@
+name: demo-pipeline
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pip:
+      - pyspark
+      - delta-spark
